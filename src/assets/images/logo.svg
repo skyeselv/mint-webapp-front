@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="42" viewBox="0 0 72 42">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #011627;
+        font-size: 28px;
+        font-family: Raleway-ExtraBold, Raleway;
+        font-weight: 800;
+      }
+
+      .cls-2 {
+        fill: #2ec4b6;
+      }
+    </style>
+  </defs>
+  <g id="Group_74" data-name="Group 74" transform="translate(-360 -16)">
+    <text id="MINT" class="cls-1" transform="translate(360 51)"><tspan x="0" y="0">MINT</tspan></text>
+    <path id="Path_39" data-name="Path 39" class="cls-2" d="M11792.211,452.888s-2.226-6.479.8-9.052,4.394-3.945,4.394-3.945.358,8.65-2.17,10.909S11792.211,452.888,11792.211,452.888Z" transform="translate(-10824.808 -3657.006) rotate(16)"/>
+  </g>
+</svg>

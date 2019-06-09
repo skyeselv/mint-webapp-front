@@ -1,0 +1,130 @@
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.App-header {
+  display: flex;
+  border-bottom: 1px solid #c9c9c9;
+  color: #011627;
+  height: 83px;
+}
+
+.App-logo {
+  margin-left: 15%;
+  margin-top: 15px;
+}
+
+.App-navbar {
+  margin-left: 14%;
+  overflow: hidden;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 15px;
+
+  ul {
+    list-style-type: none;
+  }
+  li {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 0px 10px;
+  }
+
+  input {
+    border: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    background: #f8f8f8;
+    border: 1px solid #e5e5e5;
+    width: 130px;
+    height: 34px;
+    margin: -8px 0px;
+    margin-left: 90px;
+    padding-left: 12px;
+  }
+
+  .navbar-sign-button {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: solid 1px transparent;
+    color: #ffffff;
+    background-color: #2ec4b6;
+    width: 80px;
+    height: 37px;
+    margin: -20px 0px;
+  }
+
+  .navbar-sign-button:hover {
+    color: #2ec4b6;
+    border-color: #2ec4b6;
+    background-color: white;
+  }
+  .navbar-link {
+    text-decoration: none;
+  }
+
+  .navbar-link-hidden {
+    visibility: hidden;
+  }
+
+  .navbar-link:visited {
+    color: #011627;
+  }
+
+  .navbar-link:hover {
+    text-decoration: underline;
+  }
+}
+
+.App-footer {
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  color: #e8e8e8;
+  background-color: #011627;
+  height: 160px;
+}
+
+.App-logo-footer {
+  margin-left: 15%;
+  margin-top: 30px;
+}
+
+.App-navbar-footer {
+  margin-left: 15%;
+  overflow: hidden;
+  font-size: 16px;
+  text-transform: capitalize;
+  margin-top: 15px;
+
+  ul {
+    list-style-type: none;
+  }
+  li {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 35px 45px;
+  }
+
+  .navbar-link {
+    text-decoration: hidden;
+  }
+
+  .navbar-link:visited {
+    color: #e8e8e8;
+  }
+
+  .navbar-link:hover {
+    text-decoration: underline;
+  }
+}
